@@ -1,0 +1,125 @@
+/* ABOUT US SECTION */
+
+.about-us {
+    width: 100%;
+    background-color: #CEF6FF;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 140px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+ }
+ .title-about{
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    color: #31510F;
+    font-style: italic;
+ }
+ 
+ .about-us-container .about {
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ .about-us-container .about .left {
+    margin-top: 100px !important;
+    margin-right: 146px;
+ }
+ .about-us-container .about .left p{
+    font-family: 'Habibi', serif;
+    font-size: 35px;
+ }
+ .about-us-container1 .about2{
+    display: flex;
+    flex-direction: row;
+ }
+ .about-us-container1{
+    margin-top: 100px;
+ }
+ .about-us-container1 .about2 .right p{
+    font-family: 'Habibi', serif;
+    font-size: 35px;
+ }
+ .about-us-container1 .about2 .left {
+    margin-right: 146px;
+    margin-top: 50px;
+ }
+
+
+ /* ABOUT RESPONSIVE */
+
+
+@media (max-width:1220px){
+    .about-us{
+       display: flex;
+       flex-direction: column !important;
+    }
+    .title-about{
+       margin-bottom: 50px;
+    }
+    .about-us-container .about {
+       display: flex;
+       flex-direction: column-reverse !important;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+    .about-us-container .about .left p{
+       font-size: 20px;
+    }
+    .about-us-container .about .right img{
+       width: 350px;
+    }
+    .about-us-container1 .about2 img{
+       margin-bottom: 50px;
+    }
+    .about-us-container .about .left {
+       margin-right: 0;
+    }
+    .about-us-container1 .about2 {
+       display: flex;
+       flex-direction: column !important;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+ 
+    }
+    .about-us-container1 .about2 .left{
+       margin-right: 0;
+    }
+    .about-us-container1 .about2 .right p{
+       font-size: 20px;
+    }
+    .about-us-container1 .about2 .left img{
+       width: 350px;
+    }
+ 
+ }
+ 
+ @media (max-width:427px){
+    .about-us{
+       padding: 0px 100px;
+       padding-top: 50px;
+       padding-bottom: 80px;
+    }
+    .title-about{
+       font-size: 18px
+    }
+    .about-us-container .about .right img{
+       width: 250px !important;
+    }
+    .about-us-container .about .left p{
+       font-size: 17px;
+    }
+    .about-us-container1 .about2 .left img{
+       width: 250px;
+    }
+    .about-us-container1 .about2 .right p{
+       font-size: 17px;
+    }
+   
+ }
+ 

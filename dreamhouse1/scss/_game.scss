@@ -1,0 +1,157 @@
+/* GAMES SECTION */
+.game {
+    width: 100%;
+    background-color: #CEF6FF;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 140px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+ }
+ .title-games {
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    color: #31510F;
+    font-style: italic;
+ }
+ .game-all-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 80px;
+ }
+ .game-all-container .game1 {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .game-all-container .game1 p {
+    margin-top: 30px;
+    text-align: center;
+ 
+ }
+ 
+ .game-all-container .game2 {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+ }
+ 
+ .game-all-container .game2 p {
+    margin-top: 30px;
+    text-align: center;
+ 
+ }
+ 
+ .game-all-container .game3 {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .game-all-container .game3 p {
+    margin-top: 30px;
+    text-align: center;
+ 
+ }
+ 
+ .game-all-container .game4 {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .game-all-container .game4 p {
+    margin-top: 30px;
+    text-align: center;
+ }
+ 
+ .house{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .house p{
+    width: 500px;
+ }
+
+
+ 
+@media(max-width: 1174px) {
+    .game-all-container{
+       display: flex;
+       flex-direction: column;
+    }
+    .game-all-container .game1 {
+       margin-right: 0px;
+    }
+    .game-all-container .game1 p{
+       width: 80%; 
+       margin-bottom: 20px;
+    }
+    .game-all-container .game2 {
+       margin-right: 0px;
+    }
+    .game-all-container .game2 p{
+       width: 80%; 
+       margin-bottom: 20px;
+    }
+    .game-all-container .game3 {
+       margin-right: 0px;
+    }
+    .game-all-container .game3 p{
+       width: 80%; 
+       margin-bottom: 20px;
+    }
+    .game-all-container .game4 {
+       margin-right: 0px;
+    }
+    .game-all-container .game4 p{
+       width: 80%; 
+       margin-bottom: 20px;
+    }
+ 
+ }
+ 
+ @media(max-width: 770px) {
+    .house {
+       display: flex;
+       flex-direction: column !important;
+       text-align: center;
+   }
+   .house img{
+       margin-bottom: 40px;
+   }
+   .house p{
+       width: 60%;
+   }
+ }
+ 
+ @media(max-width: 605px) {
+    .game-all-container .game1 p {
+       font-size: 14px;
+       width: 70% !important;
+   }
+   .game-all-container .game2 p {
+    font-size: 14px;
+    width: 70% !important;
+    }
+    .game-all-container .game3 p {
+       font-size: 14px;
+       width: 70% !important;
+    }
+    .game-all-container .game4 p {
+       font-size: 14px;
+       width: 70% !important;
+       }
+ }
