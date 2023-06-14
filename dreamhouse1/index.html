@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream House</title>
     <link rel="stylesheet" href="style.css">
+    
+    <!--FAVICON-->
+    <link rel="icon" type="image/png" href="img/dreamlogo.png">
+    
 </head>
 <body>
     
@@ -40,9 +44,16 @@
     <div class="box_download">
         <div class="box_container">
             <a href="#" class="download_button">
-                <button class="button1">
-                    DOWNLOAD
-                </button>
+                <button onclick="download()" class="button1">DOWNLOAD</button>
+                <script>
+                    function download() {
+                      var link = document.createElement('a');
+                      link.href = 'https://drive.google.com/file/d/1BgnuzK6ayO1DP15jEEhOlfk1ji7QfiO1/view?usp=sharing';
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }
+                </script>
             </a>
         </div>
     </div>
